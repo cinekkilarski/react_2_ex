@@ -9,7 +9,7 @@ import Footer from './Footer';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename='/react_2_ex/'>
         <div className="app">
           <header>
             {<Header />}
